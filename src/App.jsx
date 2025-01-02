@@ -1,58 +1,115 @@
 import React, { useState } from "react";
-import PropertySearch from "./components/PropertySearch";
+import SearchForm from "./components/SearchForm";
 import PropertyCard from "./components/PropertyCard";
-import FavouriteList from "./components/FavouriteList";
-import data from "./data.json"; // Import your property data
+import PropertyDetails from "./components/PropertyDetails";
+import Favorites from "./components/Favorites";
+import propertiesData from "./data/properties.json";
 
 const App = () => {
-  const [properties, setProperties] = useState(data);
-  const [favourites, setFavourites] = useState([]);
-  const [searchParams, setSearchParams] = useState({});
+  const [properties] = useState(propertiesData.properties || []);
+  const [selectedProperty, setSelectedProperty] = useState(null);
+  const [filteredProperties, setFilteredProperties] = useState(properties);
+  const [favorites, setFavorites] = useState(
+    JSON.parse(localStorage.getItem("favorites")) || []
+  );
 
-  const handleSearch = (searchParams) => {
-    setSearchParams(searchParams);
-    const filteredProperties = data.filter((property) => {
-      return (
-        (!searchParams.type || property.type.toLowerCase().includes(searchParams.type.toLowerCase())) &&
-        (!searchParams.minPrice || property.price >= searchParams.minPrice) &&
-        (!searchParams.maxPrice || property.price <= searchParams.maxPrice) &&
-        (!searchParams.minBedrooms || property.bedrooms >= searchParams.minBedrooms) &&
-        (!searchParams.maxBedrooms || property.bedrooms <= searchParams.maxBedrooms) &&
-        (!searchParams.startDate || new Date(property.dateAdded) >= new Date(searchParams.startDate)) &&
-        (!searchParams.endDate || new Date(property.dateAdded) <= new Date(searchParams.endDate)) &&
-        (!searchParams.postcode || property.postcode.startsWith(searchParams.postcode))
-      );
+  const handleSearch = (criteria) => {
+    const results = properties.filter((property) => {
+      const matchesType = criteria.type
+        ? property.type === criteria.type
+        : true;
+      const matchesPrice =
+        (criteria.minPrice ? property.price >= criteria.minPrice : true) &&
+        (criteria.maxPrice ? property.price <= criteria.maxPrice : true);
+      const matchesBedrooms =
+        (criteria.minBedrooms
+          ? property.bedrooms >= criteria.minBedrooms
+          : true) &&
+        (criteria.maxBedrooms
+          ? property.bedrooms <= criteria.maxBedrooms
+          : true);
+      const matchesPostcode = criteria.postcode
+        ? property.location
+            .toLowerCase()
+            .includes(criteria.postcode.toLowerCase())
+        : true;
+
+      return matchesType && matchesPrice && matchesBedrooms && matchesPostcode;
     });
-    setProperties(filteredProperties);
+
+    setFilteredProperties(results);
   };
 
-  const addFavourite = (property) => {
-    if (!favourites.some(fav => fav.id === property.id)) {
-      setFavourites([...favourites, property]);
+  const handleViewDetails = (id) => {
+    const property = properties.find((property) => property.id === id);
+    setSelectedProperty(property);
+  };
+
+  const handleAddFavorite = (property) => {
+    if (!favorites.some((fav) => fav.id === property.id)) {
+      const updatedFavorites = [...favorites, property];
+      setFavorites(updatedFavorites);
+      localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
     }
   };
 
-  const removeFavourite = (property) => {
-    setFavourites(favourites.filter(fav => fav.id !== property.id));
+  const handleRemoveFavorite = (id) => {
+    const updatedFavorites = favorites.filter((fav) => fav.id !== id);
+    setFavorites(updatedFavorites);
+    localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
   };
 
-  const clearFavourites = () => {
-    setFavourites([]);
+  const handleDropOnFavorites = (e) => {
+    e.preventDefault();
+    const property = JSON.parse(e.dataTransfer.getData("property"));
+    handleAddFavorite(property);
+  };
+
+  const handleDropOnProperties = (e) => {
+    e.preventDefault();
+    const property = JSON.parse(e.dataTransfer.getData("property"));
+    handleRemoveFavorite(property.id);
   };
 
   return (
     <div>
-      <h1>Estate Agent App</h1>
-      <PropertySearch onSearch={handleSearch} />
-      <FavouriteList favourites={favourites} onRemove={removeFavourite} onClear={clearFavourites} />
-      <div className="property-list">
-        {properties.map((property) => (
-          <PropertyCard
-            key={property.id}
-            property={property}
-            onAddFavourite={addFavourite}
-          />
-        ))}
+      <SearchForm onSearch={handleSearch} />
+      {selectedProperty ? (
+        <PropertyDetails property={selectedProperty} />
+      ) : (
+        <div>
+          <div
+            onDragOver={(e) => e.preventDefault()}
+            onDrop={handleDropOnProperties}
+            style={{ margin: "16px 0" }}
+          >
+            <h3>Properties</h3>
+            {filteredProperties.map((property) => (
+              <PropertyCard
+                key={property.id}
+                property={property}
+                onViewDetails={handleViewDetails}
+                onAddFavorite={handleAddFavorite}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+      <div
+        onDragOver={(e) => e.preventDefault()}
+        onDrop={handleDropOnFavorites}
+        style={{
+          border: "2px dashed #ccc",
+          padding: "16px",
+          marginTop: "16px",
+          borderRadius: "8px",
+        }}
+      >
+        <h3>Your Favorites</h3>
+        <Favorites
+          favorites={favorites}
+          onRemoveFavorite={handleRemoveFavorite}
+        />
       </div>
     </div>
   );
