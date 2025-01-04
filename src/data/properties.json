@@ -1,0 +1,186 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "type": "house",
+      "title": "Luxury Villa in Colombo 7",
+      "price": 75000000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area": 2500,
+      "postcode": "CO7",
+      "dateAdded": "2024-12-28",
+      "description": "Beautiful luxury villa with modern amenities",
+      "longDescription": "This stunning villa features high-end finishes, a spacious garden, and modern security systems. Perfect for family living in an exclusive neighborhood.",
+      "images": [
+        "/images/house1-1.jpg",
+        "/images/house1-2.jpg",
+        "/images/house1-3.jpg",
+        "/images/house1-4.jpg",
+        "/images/house1-5.jpg",
+        "/images/house1-6.jpg"
+      ],
+      "floorPlan": "/images/floorplan1.jpg",
+      "location": {
+        "lat": 6.906073,
+        "lng": 79.869164
+      }
+    },
+    {
+      "id": 2,
+      "type": "flat",
+      "title": "Modern Apartment in Nugegoda",
+      "price": 35000000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": 1200,
+      "postcode": "NU1",
+      "dateAdded": "2024-12-29",
+      "description": "Contemporary apartment with city views",
+      "longDescription": "Modern apartment featuring open-plan living, high-quality finishes, and stunning city views. Located in the heart of Nugegoda.",
+      "images": [
+        "/images/flat1-1.jpg",
+        "/images/flat1-2.jpg",
+        "/images/flat1-3.jpg",
+        "/images/flat1-4.jpg",
+        "/images/flat1-5.jpg",
+        "/images/flat1-6.jpg"
+      ],
+      "floorPlan": "/images/floorplan2.jpg",
+      "location": {
+        "lat": 6.867691,
+        "lng": 79.888634
+      }
+    },
+    {
+      "id": 3,
+      "type": "house",
+      "title": "Family Home in Battaramulla",
+      "price": 45000000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area": 1800,
+      "postcode": "BA1",
+      "dateAdded": "2024-12-30",
+      "description": "Spacious family home with garden",
+      "longDescription": "Perfect family home with a large garden, modern kitchen, and ample parking space. Located in a quiet residential area.",
+      "images": [
+        "/images/house2-1.jpg",
+        "/images/house2-2.jpg",
+        "/images/house2-3.jpg",
+        "/images/house2-4.jpg",
+        "/images/house2-5.jpg",
+        "/images/house2-6.jpg"
+      ],
+      "floorPlan": "/images/floorplan3.jpg",
+      "location": {
+        "lat": 6.898156,
+        "lng": 79.920187
+      }
+    },
+    {
+      "id": 4,
+      "type": "flat",
+      "title": "Luxury Apartment in Rajagiriya",
+      "price": 55000000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area": 1500,
+      "postcode": "RA1",
+      "dateAdded": "2025-01-01",
+      "description": "High-end apartment with modern amenities",
+      "longDescription": "Luxurious apartment featuring high ceilings, premium finishes, and access to pool and gym facilities.",
+      "images": [
+        "/images/flat2-1.jpg",
+        "/images/flat2-2.jpg",
+        "/images/flat2-3.jpg",
+        "/images/flat2-4.jpg",
+        "/images/flat2-5.jpg",
+        "/images/flat2-6.jpg"
+      ],
+      "floorPlan": "/images/floorplan4.jpg",
+      "location": {
+        "lat": 6.909758,
+        "lng": 79.892935
+      }
+    },
+    {
+      "id": 5,
+      "type": "house",
+      "title": "Beach House in Mount Lavinia",
+      "price": 85000000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area": 2200,
+      "postcode": "ML1",
+      "dateAdded": "2025-01-02",
+      "description": "Beachfront property with stunning views",
+      "longDescription": "Beautiful beachfront property with direct access to the beach, spacious terraces, and panoramic ocean views.",
+      "images": [
+        "/images/house3-1.jpg",
+        "/images/house3-2.jpg",
+        "/images/house3-3.jpg",
+        "/images/house3-4.jpg",
+        "/images/house3-5.jpg",
+        "/images/house3-6.jpg"
+      ],
+      "floorPlan": "/images/floorplan5.jpg",
+      "location": {
+        "lat": 6.839164,
+        "lng": 79.862091
+      }
+    },
+    {
+      "id": 6,
+      "type": "flat",
+      "title": "City Apartment in Kollupitiya",
+      "price": 65000000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": 1300,
+      "postcode": "KO1",
+      "dateAdded": "2025-01-03",
+      "description": "Modern city apartment with sea view",
+      "longDescription": "Stylish apartment in the heart of Colombo with sea views, modern amenities, and 24-hour security.",
+      "images": [
+        "/images/flat3-1.jpg",
+        "/images/flat3-2.jpg",
+        "/images/flat3-3.jpg",
+        "/images/flat3-4.jpg",
+        "/images/flat3-5.jpg",
+        "/images/flat3-6.jpg"
+      ],
+      "floorPlan": "/images/floorplan6.jpg",
+      "location": {
+        "lat": 6.917053,
+        "lng": 79.847855
+      }
+    },
+    {
+      "id": 7,
+      "type": "house",
+      "title": "Modern Villa in Dehiwala",
+      "price": 95000000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area": 3000,
+      "postcode": "DE1",
+      "dateAdded": "2025-01-04",
+      "description": "Luxurious modern villa with pool",
+      "longDescription": "Exceptional modern villa featuring a private pool, home theater, smart home systems, and landscaped gardens.",
+      "images": [
+        "/images/house4-1.jpg",
+        "/images/house4-2.jpg",
+        "/images/house4-3.jpg",
+        "/images/house4-4.jpg",
+        "/images/house4-5.jpg",
+        "/images/house4-6.jpg"
+      ],
+      "floorPlan": "/images/floorplan7.jpg",
+      "location": {
+        "lat": 6.856300,
+        "lng": 79.865461
+      }
+    }
+  ]
+}
