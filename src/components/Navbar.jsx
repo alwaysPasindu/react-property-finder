@@ -1,10 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import '../styles/Navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -20,16 +21,40 @@ const Navbar = () => {
       </button>
       <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
         <li>
-          <Link to="/" onClick={toggleMenu}>Home</Link>
+          <Link 
+            to="/" 
+            className={location.pathname === '/' ? 'active' : ''} 
+            onClick={toggleMenu}
+          >
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/properties" onClick={toggleMenu}>Properties</Link>
+          <Link 
+            to="/properties" 
+            className={location.pathname === '/properties' ? 'active' : ''} 
+            onClick={toggleMenu}
+          >
+            Properties
+          </Link>
         </li>
         <li>
-          <Link to="/about" onClick={toggleMenu}>About</Link>
+          <Link 
+            to="/about" 
+            className={location.pathname === '/about' ? 'active' : ''} 
+            onClick={toggleMenu}
+          >
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/contact" onClick={toggleMenu}>Contact</Link>
+          <Link 
+            to="/contact" 
+            className={location.pathname === '/contact' ? 'active' : ''} 
+            onClick={toggleMenu}
+          >
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>

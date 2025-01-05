@@ -23,7 +23,7 @@ const Footer = () => {
           <h3>Contact Info</h3>
           <p>123 Main Street</p>
           <p>Colombo, Sri Lanka</p>
-          <p>Email: info@propertyfinder.lk</p>
+          <p>Email: info@eliteestates.lk</p>
           <p>Phone: +94 11 234 5678</p>
         </div>
         <div className="footer-section">
