@@ -38,7 +38,7 @@
       "postcode": "NU1",
       "dateAdded": "2024-12-29",
       "description": "Contemporary apartment with city views",
-      "longDescription": "Modern apartment featuring open-plan living, high-quality finishes, and stunning city views. Located in the heart of Nugegoda.",
+      "longDescription": "This stylish and contemporary 2-bedroom, 2-bathroom apartment offers a perfect blend of comfort and convenience, situated in the vibrant heart of Nugegoda. With a spacious 1200 sqft open-plan design, the apartment is bathed in natural light, offering a seamless flow between the living, dining, and kitchen areas. The high-quality finishes throughout the space elevate the living experience, with sleek countertops, modern fixtures, and premium flooring. The bedrooms are designed to offer a peaceful retreat, each featuring ample closet space and large windows that frame breathtaking city views. The bathrooms are beautifully appointed with contemporary fittings, providing both functionality and luxury. Key amenities include air conditioning, high-speed internet, and a smart home system that adds an extra level of comfort and convenience. The apartment is ideally located, with easy access to public transport, shopping, dining, and entertainment options, making it",
       "images": [
         "/images/prop2/flat1-1.jpg",
         "/images/prop2/flat1-2.jpg",
@@ -64,14 +64,14 @@
       "postcode": "BA1",
       "dateAdded": "2024-12-30",
       "description": "Spacious family home with garden",
-      "longDescription": "Perfect family home with a large garden, modern kitchen, and ample parking space. Located in a quiet residential area.",
+      "longDescription": "This perfect family home offers a spacious living experience with a large garden, modern kitchen, and ample parking space. Located in a quiet and peaceful residential area, this 3-bedroom, 2-bathroom house spans 1800 sqft, providing ample room for family living. The modern kitchen is fully equipped, ideal for cooking and entertaining, while the open-plan living areas create a welcoming and airy atmosphere. The large garden is perfect for children to play, outdoor gatherings, or simply enjoying a peaceful moment. The home also offers convenient parking for multiple vehicles. Whether you're looking for a tranquil retreat or a practical family base, this house in Battaramulla is the perfect blend of comfort, style, and functionality.",
       "images": [
-        "/images/house2-1.jpg",
-        "/images/house2-2.jpg",
-        "/images/house2-3.jpg",
-        "/images/house2-4.jpg",
-        "/images/house2-5.jpg",
-        "/images/house2-6.jpg"
+        "/images/prop3/house2-1.jpg",
+        "/images/prop3/house2-2.jpg",
+        "/images/prop3/house2-3.jpg",
+        "/images/prop3/house2-4.jpg",
+        "/images/prop3/house2-5.jpg",
+        "/images/prop3/house2-6.jpg"
       ],
       "floorPlan": "/images/floorplan3.jpg",
       "location": {
@@ -90,14 +90,15 @@
       "postcode": "RA1",
       "dateAdded": "2025-01-01",
       "description": "High-end apartment with modern amenities",
-      "longDescription": "Luxurious apartment featuring high ceilings, premium finishes, and access to pool and gym facilities.",
+      "longDescription": "This luxurious apartment offers an elevated living experience with high ceilings, premium finishes, and access to exclusive amenities such as a pool and gym. The 3-bedroom, 2-bathroom apartment spans 1500 sqft, providing spacious living areas that are designed for both comfort and style. The high-end finishes throughout the apartment enhance its modern aesthetic, while large windows allow natural light to flood the space. Residents can enjoy a range of amenities including a refreshing swimming pool and a fully-equipped gym, making it perfect for those who appreciate luxury and convenience. Located in the sought-after area of Rajagiriya, this apartment is the ideal blend of urban sophistication and relaxation."
+    ,
       "images": [
-        "/images/flat2-1.jpg",
-        "/images/flat2-2.jpg",
-        "/images/flat2-3.jpg",
-        "/images/flat2-4.jpg",
-        "/images/flat2-5.jpg",
-        "/images/flat2-6.jpg"
+        "/images/prop4/flat2-1.jpg",
+        "/images/prop4/flat2-2.jpg",
+        "/images/prop4/flat2-3.jpg",
+        "/images/prop4/flat2-4.jpg",
+        "/images/prop4/flat2-5.jpg",
+        "/images/prop4/flat2-6.jpg"
       ],
       "floorPlan": "/images/floorplan4.jpg",
       "location": {
