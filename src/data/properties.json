@@ -117,14 +117,14 @@
       "postcode": "ML1",
       "dateAdded": "2025-01-02",
       "description": "Beachfront property with stunning views",
-      "longDescription": "Beautiful beachfront property with direct access to the beach, spacious terraces, and panoramic ocean views.",
+      "longDescription": "This beautiful beachfront property offers direct access to the beach, spacious terraces, and breathtaking panoramic ocean views. The 4-bedroom, 3-bathroom beach house spans 2200 sqft, providing an expansive living space designed for ultimate relaxation and luxury. The spacious terraces are perfect for outdoor dining, lounging, or simply enjoying the serene coastal surroundings. With large windows throughout, the house captures stunning ocean views from almost every room. Whether you're seeking a tranquil retreat or a perfect setting for entertaining, this beach house in Mount Lavinia combines natural beauty with modern comfort, offering a unique beachfront lifestyle.",
       "images": [
-        "/images/house3-1.jpg",
-        "/images/house3-2.jpg",
-        "/images/house3-3.jpg",
-        "/images/house3-4.jpg",
-        "/images/house3-5.jpg",
-        "/images/house3-6.jpg"
+        "/images/prop5/house3-1.jpg",
+        "/images/prop5/house3-2.jpg",
+        "/images/prop5/house3-3.jpg",
+        "/images/prop5/house3-4.jpg",
+        "/images/prop5/house3-5.jpg",
+        "/images/prop5/house3-6.jpg"
       ],
       "floorPlan": "/images/floorplan5.jpg",
       "location": {
@@ -143,14 +143,15 @@
       "postcode": "KO1",
       "dateAdded": "2025-01-03",
       "description": "Modern city apartment with sea view",
-      "longDescription": "Stylish apartment in the heart of Colombo with sea views, modern amenities, and 24-hour security.",
+      "longDescription": "This stylish apartment, located in the heart of Colombo, offers stunning sea views, modern amenities, and 24-hour security. The 2-bedroom, 2-bathroom apartment spans 1300 sqft, featuring sleek and contemporary design throughout. Large windows provide breathtaking views of the ocean, while the open-plan living areas create a bright and welcoming atmosphere. The apartment is equipped with all the modern conveniences, including air conditioning, high-speed internet, and fully fitted kitchen. Residents also enjoy the peace of mind that comes with 24-hour security and easy access to Colombo’s shopping, dining, and entertainment options. This apartment in Kollupitiya combines city living with coastal tranquility, making it the ideal choice for a dynamic urban lifestyle."
+,
       "images": [
-        "/images/flat3-1.jpg",
-        "/images/flat3-2.jpg",
-        "/images/flat3-3.jpg",
-        "/images/flat3-4.jpg",
-        "/images/flat3-5.jpg",
-        "/images/flat3-6.jpg"
+        "/images/prop6/flat3-1.jpg",
+        "/images/prop6/flat3-2.jpg",
+        "/images/prop6/flat3-3.jpg",
+        "/images/prop6/flat3-4.jpg",
+        "/images/prop6/flat3-5.jpg",
+        "/images/prop6/flat3-6.jpg"
       ],
       "floorPlan": "/images/floorplan6.jpg",
       "location": {
