@@ -211,9 +211,12 @@
 
 .filter-buttons {
   display: flex;
-  gap: 1rem;
-  grid-column: 1 / -1;
+  justify-content: center; /* Center horizontally, if needed */
+  align-items: center; /* Adjust vertical alignment */
+  gap: 10px; /* Optional: spacing between buttons */
+  transform: translateY(-10px); /* Moves it up slightly but maintains responsiveness */
 }
+
 
 .properties-grid {
   display: grid;
@@ -326,7 +329,8 @@
   }
 
   .filter-buttons {
-    flex-direction: column;
+    /* flex-direction: column; */
+
   }
 
   .properties-grid {

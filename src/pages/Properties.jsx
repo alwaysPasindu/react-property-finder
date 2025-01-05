@@ -253,7 +253,7 @@ const Properties = () => {
                 />
               </div>
             </div>
-        
+        <br />
             <div className="filter-group">
               <label>Date Added</label>
               <div className="range-inputs">
@@ -262,7 +262,7 @@ const Properties = () => {
                   name="dateFrom"
                   value={filters.dateFrom}
                   onChange={handleFilterChange}
-                />
+                /> <br />
                 <input
                   type="date"
                   name="dateTo"
@@ -271,7 +271,7 @@ const Properties = () => {
                 />
               </div>
             </div>
-        
+
             <div className="filter-group">
               <label>Postcode Area</label>
               <input
