@@ -13,14 +13,14 @@
       "description": "Beautiful luxury villa with modern amenities",
       "longDescription": "This stunning villa features high-end finishes, a spacious garden, and modern security systems. Perfect for family living in an exclusive neighborhood.",
       "images": [
-        "/images/house1-1.jpg",
-        "/images/house1-2.jpg",
-        "/images/house1-3.jpg",
-        "/images/house1-4.jpg",
-        "/images/house1-5.jpg",
-        "/images/house1-6.jpg"
+        "/images/prop1/house1-1.jpg",
+        "/images/prop1/house1-2.jpg",
+        "/images/prop1/house1-3.jpg",
+        "/images/prop1/house1-4.jpg",
+        "/images/prop1/house1-5.jpg",
+        "/images/prop1/house1-6.jpg"
       ],
-      "floorPlan": "/images/floorplan1.jpg",
+      "floorPlan": "/images/prop1/floorplan1.jpg",
       "location": {
         "lat": 6.906073,
         "lng": 79.869164
@@ -39,14 +39,14 @@
       "description": "Contemporary apartment with city views",
       "longDescription": "Modern apartment featuring open-plan living, high-quality finishes, and stunning city views. Located in the heart of Nugegoda.",
       "images": [
-        "/images/flat1-1.jpg",
-        "/images/flat1-2.jpg",
-        "/images/flat1-3.jpg",
-        "/images/flat1-4.jpg",
-        "/images/flat1-5.jpg",
-        "/images/flat1-6.jpg"
+        "/images/prop2/flat1-1.jpg",
+        "/images/prop2/flat1-2.jpg",
+        "/images/prop2/flat1-3.jpg",
+        "/images/prop2/flat1-4.jpg",
+        "/images/prop2/flat1-5.jpg",
+        "/images/prop2/flat1-6.jpg"
       ],
-      "floorPlan": "/images/floorplan2.jpg",
+      "floorPlan": "/images/prop2/floorplan2.jpg",
       "location": {
         "lat": 6.867691,
         "lng": 79.888634

@@ -253,31 +253,16 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background-color: white;
-  border: 2px solid var(--accent-color);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: none;
+  border: 0px;
+  padding: 0;
   cursor: pointer;
-  transition: all 0.3s ease;
-  color: var(--accent-color);
-  font-size: 1.2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.favorite-button:hover {
-  transform: scale(1.1);
-  background-color: var(--accent-color);
-  color: white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: #442020;
+  font-size: 1.5rem;
 }
 
 .favorite-button.active {
-  background-color: var(--accent-color);
-  color: white;
+  color: #ff385c;
 }
 
 .property-info {
