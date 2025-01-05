@@ -17,17 +17,18 @@
 }
 
 .favorite-button {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.8rem 1.5rem;
-  background-color: white;
-  border: 2px solid var(--accent-color);
-  border-radius: var(--radius-sm);
-  color: var(--accent-color);
-  cursor: pointer;
-  font-size: 1rem;
-  transition: all 0.3s ease;
+  display: flex
+;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 1rem;
+    background-color: #ffffffdc;
+    /* border: 2px solid var(--accent-color); */
+    border-radius: 10rem;
+    color: #ff0000;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
 }
 
 .favorite-button:hover {

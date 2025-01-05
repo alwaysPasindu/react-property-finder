@@ -251,14 +251,14 @@
 
 .favorite-button {
   position: absolute;
-  top: 1rem;
+ top: 1rem;
   right: 1rem;
-  background: none;
+  /* background: none;
   border: 0px;
   padding: 0;
   cursor: pointer;
   color: #442020;
-  font-size: 1.5rem;
+  font-size: 1.5rem;  */
 }
 
 .favorite-button.active {
