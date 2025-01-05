@@ -73,7 +73,7 @@
         "/images/prop3/house2-5.jpg",
         "/images/prop3/house2-6.jpg"
       ],
-      "floorPlan": "/images/floorplan3.jpg",
+      "floorPlan": "/images/prop3/floorplan3.jpg",
       "location": {
         "lat": 6.898156,
         "lng": 79.920187
@@ -100,7 +100,7 @@
         "/images/prop4/flat2-5.jpg",
         "/images/prop4/flat2-6.jpg"
       ],
-      "floorPlan": "/images/floorplan4.jpg",
+      "floorPlan": "/images/prop4/floorplan4.jpg",
       "location": {
         "lat": 6.909758,
         "lng": 79.892935
@@ -126,7 +126,7 @@
         "/images/prop5/house3-5.jpg",
         "/images/prop5/house3-6.jpg"
       ],
-      "floorPlan": "/images/floorplan5.jpg",
+      "floorPlan": "/images/prop5/floorplan5.jpg",
       "location": {
         "lat": 6.839164,
         "lng": 79.862091
@@ -153,7 +153,7 @@
         "/images/prop6/flat3-5.jpg",
         "/images/prop6/flat3-6.jpg"
       ],
-      "floorPlan": "/images/floorplan6.jpg",
+      "floorPlan": "/images/prop6/floorplan6.jpg",
       "location": {
         "lat": 6.917053,
         "lng": 79.847855
@@ -170,16 +170,16 @@
       "postcode": "DE1",
       "dateAdded": "2025-01-04",
       "description": "Luxurious modern villa with pool",
-      "longDescription": "Exceptional modern villa featuring a private pool, home theater, smart home systems, and landscaped gardens.",
+      "longDescription": "This exceptional modern villa offers a luxurious living experience with a private pool, home theater, smart home systems, and beautifully landscaped gardens. The 5-bedroom, 4-bathroom villa spans 3000 sqft, providing an expansive and sophisticated living space. Designed with cutting-edge technology, the villa features a smart home system that enhances comfort and convenience, while the home theater offers the ultimate entertainment experience. The private pool and meticulously landscaped gardens create a tranquil oasis, ideal for both relaxation and hosting guests. With spacious bedrooms and modern bathrooms, this villa in Dehiwala combines contemporary design with luxury living, making it the perfect retreat for those who appreciate comfort, style, and privacy.",
       "images": [
-        "/images/house4-1.jpg",
-        "/images/house4-2.jpg",
-        "/images/house4-3.jpg",
-        "/images/house4-4.jpg",
-        "/images/house4-5.jpg",
-        "/images/house4-6.jpg"
+        "/images/prop7/house4-1.jpg",
+        "/images/prop7/house4-2.jpg",
+        "/images/prop7/house4-3.jpg",
+        "/images/prop7/house4-4.jpg",
+        "/images/prop7/house4-5.jpg",
+        "/images/prop7/house4-6.jpg"
       ],
-      "floorPlan": "/images/floorplan7.jpg",
+      "floorPlan": "/images/prop7/floorplan7.jpg",
       "location": {
         "lat": 6.856300,
         "lng": 79.865461
