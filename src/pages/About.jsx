@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about">
       <section className="about-hero">
-        <h1>About PropertyFinder</h1>
+        <h1>About EliteEstates.lk</h1>
         <p>Your trusted partner in finding the perfect property in Sri Lanka</p>
       </section>
 
@@ -12,7 +12,7 @@ const About = () => {
         <div className="about-section">
           <h2>Our Story</h2>
           <p>
-            Founded in 2024, PropertyFinder has been at the forefront of revolutionizing 
+            Founded in 2022, EliteEstates.lk has been at the forefront of revolutionizing 
             the real estate market in Sri Lanka. We believe in making property hunting 
             a seamless and enjoyable experience for everyone.
           </p>

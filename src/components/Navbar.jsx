@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-brand">
-        <Link to="/">PropertyFinder</Link>
+        <Link to="/">EliteEstates.lk</Link>
       </div>
       <button className="nav-toggle" onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}

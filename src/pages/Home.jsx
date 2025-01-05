@@ -28,14 +28,14 @@ const Home = () => {
             <span className="stat-label">Happy Clients</span>
           </div>
           <div className="stat-item">
-            <span className="stat-number">50+</span>
+            <span className="stat-number">20+</span>
             <span className="stat-label">Cities</span>
           </div>
         </div>
       </section>
 
       <section className="features">
-        <h2>Why Choose PropertyFinder</h2>
+        <h2>Why Choose EliteEstates.lk</h2>
         <div className="features-grid">
           <div className="feature-card">
             <div className="feature-icon">
@@ -93,7 +93,7 @@ const Home = () => {
       <section className="cta-section">
         <div className="cta-content">
           <h2>Ready to Find Your Dream Home?</h2>
-          <p>Start your property search journey with PropertyFinder today</p>
+          <p>Start your property search journey with EliteEstates.lk today</p>
           <Link to="/properties" className="btn btn-primary">Start Searching</Link>
         </div>
       </section>

@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>PropertyFinder</h3>
+          <h3>EliteEstates.lk</h3>
           <p>Your trusted partner in finding the perfect property in Sri Lanka.</p>
         </div>
         <div className="footer-section">

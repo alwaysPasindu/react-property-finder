@@ -63,7 +63,7 @@ const Contact = () => {
 
         <div className="contact-form">
           <h2>Send Us a Message</h2>
-          <form onSubmit={handleSubmit}>
+          <form  action="mailto:always.pasindu@gmail.com" id="form" method="post" enctype="text/plain">
             <div className="form-group">
               <label htmlFor="name">Name</label>
               <input
@@ -112,8 +112,8 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button type="submit" className="submit-button">Send Message</button>
-          </form>
+            <button type="submit" className="submit-button" >Send Message</button>
+          </form >
         </div>
       </div>
     </div>
