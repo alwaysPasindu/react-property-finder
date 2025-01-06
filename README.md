@@ -17,7 +17,7 @@ This is a property search application built with React and Vite. It allows users
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/property-search.git
+   git clone https://github.com/alwaysPasindu/property-search.git
    cd property-search
    ```
 
