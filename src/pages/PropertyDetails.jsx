@@ -5,12 +5,14 @@ import { FaHeart, FaRegHeart } from 'react-icons/fa';
 import propertiesData from '../data/properties.json';
 import 'react-tabs/style/react-tabs.css';
 import '../styles/PropertyDetails.css';
+const mapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 const PropertyDetails = () => {
   const { id } = useParams();
   const [property, setProperty] = useState(null);
   const [mainImage, setMainImage] = useState('');
   const [isFavorite, setIsFavorite] = useState(false);
+  
 
   useEffect(() => {
     const propertyData = propertiesData.properties.find(p => p.id === parseInt(id));
@@ -117,7 +119,7 @@ const PropertyDetails = () => {
               width="100%"
               height="450"
               frameBorder="0"
-              src={`https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=${property.location.lat},${property.location.lng}`}
+              src={`https://www.google.com/maps/embed/v1/place?key=${mapsApiKey}&q=${property.location.lat},${property.location.lng}`}
               allowFullScreen
             ></iframe>
           </div>

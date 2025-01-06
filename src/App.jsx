@@ -7,6 +7,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import PropertyDetails from './pages/PropertyDetails'
 
+
 function App() {
   return (
     <Router>
