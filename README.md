@@ -30,7 +30,7 @@ This is a property search application built with React and Vite. It allows users
    ```bash
    npm run dev
    ```
-   The application will open in your default browser at `http://localhost:3000`.
+   The application will open in your default browser at `http://localhost:5173`.
 
 ### Build for Production
 
